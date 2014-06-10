@@ -1,4 +1,6 @@
 LearningDevise::Application.routes.draw do
+  get "registrations/update"
+
   root :to => 'home#index'
   get "home/index"
 
